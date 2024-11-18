@@ -1,0 +1,97 @@
+/* Container ของหน้า Login */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+  }
+  
+  /* กล่องของฟอร์มล็อกอิน */
+  .loginBox {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  /* หัวข้อ */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* กลุ่มของ input */
+  .inputGroup {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* ป้ายชื่อ (label) */
+  .inputGroup label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  /* กล่อง input */
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .input:focus {
+    border-color: #6e8efb;
+  }
+  
+  /* ข้อความแสดงข้อผิดพลาด */
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+  
+  /* ปุ่มล็อกอิน */
+  .button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6e8efb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #a777e3;
+    transform: scale(1.05);
+  }
+  
+  /* ลิงก์ลงทะเบียน */
+  .registerLink {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* ลิงก์ภายในข้อความ */
+  .link {
+    color: #6e8efb;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
